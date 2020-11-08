@@ -1,14 +1,15 @@
-import React from 'react';
-import Form from "./Form";
+import React, {Component} from 'react';
 import Weather from "./Weather";
+import FormControl from "../containers/FormContainer";
 
 const Data = () => {
+
     return (
         <div>
-            <Form/>
+            <FormControl/>
             <Weather/>
         </div>
     );
-};
+}
 
 export default Data;
